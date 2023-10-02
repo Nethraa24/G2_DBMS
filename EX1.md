@@ -26,14 +26,14 @@ create table student_table(Roll_no numeric(10) , Name varchar(20) , Age numeric(
 
 Inserting rows 
 
-query : insert into student_table values ( 1, 'Kothai' , 18 , 'Porur' , 9176977202);
+query : insert into student_table values ( 1,'Nethraa' , 19 , 'Korattur' , 9176977202);
 
 ### OUTPUT:
 ![image](https://github.com/KothaiKumar/G2_DBMS/assets/121215739/7b63cb2e-de07-4117-95db-b1524892b19b)
 
-![image](https://github.com/KothaiKumar/G2_DBMS/assets/121215739/97d92fa5-e61c-4d8e-8f22-f0d18c94490a)
+![image](https://github.com/Nethraa24/G2_DBMS/assets/121215786/18c59065-16cd-4a0d-9ee1-bb6b0d1789c4)
 
-![image](https://github.com/KothaiKumar/G2_DBMS/assets/121215739/bb2d1fed-4072-46e9-8efc-ff1941c4e501)
+![image](https://github.com/Nethraa24/G2_DBMS/assets/121215786/b671b976-2386-4b92-b331-cbbe99dcbf43)
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -57,21 +57,20 @@ Drop table student_tabel;
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-Truncate table student_table2;
+Truncate table student_table1;
 
 ### OUTPUT:
-![image](https://github.com/KothaiKumar/G2_DBMS/assets/121215739/e1a3853e-8769-44c8-95c8-d3825398ec06)
-
+![image](https://github.com/Nethraa24/G2_DBMS/assets/121215786/d1640a18-5734-4d97-b6e6-9e82bc1e99c8)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-alter table student3
+alter table student_table2
 rename to mystudent;
 
 ### OUTPUT:
-![image](https://github.com/KothaiKumar/G2_DBMS/assets/121215739/767b16f4-b9e6-44e9-b9e9-9cdb5ca2af03)
+![image](https://github.com/Nethraa24/G2_DBMS/assets/121215786/4385d082-3a67-4dd1-9cb3-550cf67a2bf6)
 
 ### RESULT:
 Thus , a student database is created and DDL queries are executed in SQL.
