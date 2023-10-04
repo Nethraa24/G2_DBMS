@@ -73,4 +73,4 @@ rename to mystudent;
 ![image](https://github.com/Nethraa24/G2_DBMS/assets/121215786/4385d082-3a67-4dd1-9cb3-550cf67a2bf6)
 
 ### RESULT:
-Thus , a student database is created and DDL queries are executed in SQL.
+Thus, a student database is created and DDL queries are executed in SQL successfully.
